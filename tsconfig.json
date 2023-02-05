@@ -1,0 +1,42 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "es5",
+		"lib": ["es6", "dom"],
+		"sourceMap": true,
+		"jsx": "react-jsx",
+		"moduleResolution": "node",
+		"rootDir": "./src",
+		"declaration": true,
+		"declarationDir": "./dist",
+		"outDir": "./dist",
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		// "noEmit": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		// "baseUrl": "./src",
+		"incremental": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": false,
+		"strictNullChecks": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["**/*.ts", "**/*.tsx"],
+	"exclude": [
+		"node_modules",
+		"build",
+		"dist",
+		"scripts",
+		"acceptance-tests",
+		"webpack",
+		"jest"
+	],
+	"types": ["typePatches"]
+}
